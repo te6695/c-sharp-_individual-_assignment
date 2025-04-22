@@ -16,7 +16,7 @@ Feel free to use this Markdown file or let me know if you need any adjustments!
   2.  Inheritance 
 - The `Police`, `Firefighter`, and `Ambulance` classes inherit from the abstract `EmergencyUnit` class. This allows them to share common properties and methods while implementing their specific behaviors.
 
- 3.  Polymorphism 
+  3.  Polymorphism 
 - Polymorphism is demonstrated through the use of abstract methods `CanHandle()` and `RespondToIncident()`. Each derived class provides its own implementation of these methods.
 
   4.  Abstraction 
@@ -37,13 +37,16 @@ Feel free to use this Markdown file or let me know if you need any adjustments!
  Derived Classes 
 Class: Police 
   - Specialization: Handles "Crime" incidents.
-  Class: Firefighter 
+Class: Firefighter 
   - Specialization: Handles "Fire" incidents.
- Class: Ambulance 
+Class: Ambulance 
   - Specialization: Handles "Medical" incidents.
 
- 
 
+                                                                  EmergencyUnit
+                                                                    /  |  \ 
+                                                                   /   |    \
+                                                                 /     |       \ 
+                                                       Ambulance    police      Firefighter
 
-
-                        
+                                       FIG.Hierarchical inheritance
