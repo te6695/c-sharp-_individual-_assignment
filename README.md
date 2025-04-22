@@ -10,7 +10,7 @@ Feel free to use this Markdown file or let me know if you need any adjustments!
 
 
   Object-Oriented Programming Concepts Applied
-  1.  Encapsulation 
+   1. Encapsulation 
 - Encapsulation is achieved through the use of properties like `Name` and `Speed` in the `EmergencyUnit` class, which ensure data is accessed and modified via defined structures.
   
   2.  Inheritance 
